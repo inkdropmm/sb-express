@@ -1,20 +1,20 @@
 {
-	"name": "phofri-server",
+	"name": "sb-express",
 	"version": "1.0.0",
 	"description": "",
-	"main": "src/app/index.ts",
+	"main": "src/app/server.ts",
 	"scripts": {
 		"test": "yarn test",
 		"build": "npx tsc",
-		"start": "node dist/index.js",
-		"dev": "nodemon src/app/index.ts"
+		"start": "node dist/server.js",
+		"dev": "nodemon src/app/server.ts"
 	},
 	"author": "Zayar Lin",
 	"license": "ISC",
 	"dependencies": {
 		"dotenv": "^16.4.5",
 		"express": "^4.19.2",
-		"mysql": "^2.18.1",
+		"mongoose": "^8.3.2",
 		"reflect-metadata": "^0.2.2",
 		"socket.io": "^4.7.5",
 		"typeorm": "^0.3.20",
